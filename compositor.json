@@ -1,0 +1,96 @@
+{
+  "name": "ferMartz/vue-soundcloud",
+  "version": "0.1.4",
+  "libraries": {
+    "xv": "^1.1.25"
+  },
+  "title": "Vue Soundcloud",
+  "branch": "gh-pages",
+  "style": {
+    "name": "Future",
+    "componentSet": {
+      "nav": "nav/BasicNav",
+      "header": "header/BannerHeader",
+      "article": "article/BasicArticle",
+      "footer": "footer/BasicFooter"
+    },
+    "fontFamily": "\"Avenir Next\", Helvetica, sans-serif",
+    "heading": {
+      "fontWeight": 500,
+      "textTransform": "uppercase",
+      "letterSpacing": "0.2em"
+    },
+    "alternativeText": {
+      "textTransform": "uppercase",
+      "fontWeight": 400,
+      "letterSpacing": "0.2em",
+      "opacity": 0.75
+    },
+    "colors": {
+      "text": "#333",
+      "background": "#fff",
+      "primary": "#666",
+      "secondary": "#888",
+      "highlight": "#1f80ff",
+      "muted": "#f6f6f6",
+      "border": "#eee"
+    },
+    "layout": {
+      "centered": true,
+      "maxWidth": 1024,
+      "bannerHeight": "80vh"
+    }
+  },
+  "content": [
+    {
+      "component": "nav",
+      "links": [
+        {
+          "href": "https://mul14.github.io/vue-soundcloud",
+          "text": "Home"
+        },
+        {
+          "href": "https://github.com/ferMartz/vue-soundcloud",
+          "text": "GitHub"
+        }
+      ]
+    },
+    {
+      "component": "header",
+      "heading": "vue-soundcloud",
+      "subhead": "Vuejs + SoundCloud demo app, for JogjaJS meet up.",
+      "children": [
+        {
+          "component": "ui/TweetButton",
+          "text": "vue-soundcloud: Vuejs + SoundCloud demo app, for JogjaJS meet up.",
+          "url": "https://mul14.github.io/vue-soundcloud"
+        },
+        {
+          "component": "ui/GithubButton",
+          "user": "ferMartz",
+          "repo": "vue-soundcloud"
+        }
+      ]
+    },
+    {
+      "component": "article",
+      "metadata": {
+        "source": "github.readme"
+      },
+      "html": "<h1>Vue SoundCloud</h1>\n<p>First, you need register or log in to your SoundCloud account. Then, you also need to register your SoundCloud application at here <a href=\"http://soundcloud.com/you/apps\">http://soundcloud.com/you/apps</a>.</p>\n<p>After registered, grab the Client ID. Edit <code>index.html</code> file, and put your Client ID to</p>\n<pre><span class=\"hljs-keyword\">const</span> SC_CLIENT_ID = <span class=\"hljs-string\">&apos;YOUR_CLIENT_ID&apos;</span>;</pre><p>Open the <code>index.html</code>. Enjoy, learn and happy hacking!</p>\n"
+    },
+    {
+      "component": "footer",
+      "links": [
+        {
+          "href": "https://github.com/ferMartz/vue-soundcloud",
+          "text": "GitHub"
+        },
+        {
+          "href": "https://github.com/ferMartz",
+          "text": "ferMartz"
+        }
+      ]
+    }
+  ]
+}
